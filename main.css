@@ -94,6 +94,7 @@ ul{
     justify-content: space-between;
 }
 .partner_people{
+    padding-top: 31px;
     padding-right: 22px;
 }
 .partner_people:last-child{
@@ -144,9 +145,6 @@ ul{
     font-size: 14px;
     line-height: 16px;
     color: #666666;
-}
-.text_woman{
-    margin-top: 0px;
 }
 .text_man{
     width: 247px;
@@ -201,13 +199,16 @@ ul{
         background: #4E73DB;
         padding: 6.8px 8.5px;
     }
-    .partner_people{
-        padding-right: 51px;
+    .people_padding{
+        padding-top: 51px;
     }
     .people_text{
         width: 265px;
     }
     .container{
         width: 670px;
-        margin: 0 auto;
+    }
+    .people_padding_left{
+        padding-left: 53px;
+    }
 }
